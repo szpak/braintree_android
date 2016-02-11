@@ -58,7 +58,6 @@ uploadArchives {
             pom.project {
                 name 'core'
                 groupId = 'com.braintreepayments.api'
-                version = "${android.defaultConfig.versionName}"
                 packaging 'jar'
                 description 'Library containing shared components used across Braintree\'s Android SDKs.'
             }

@@ -76,7 +76,6 @@ uploadArchives {
             pom.project {
                 name 'data-collector'
                 groupId = 'com.paypal.android.sdk'
-                version = "${android.defaultConfig.versionName}"
                 packaging 'jar'
                 description 'Fraud tools for PayPal integrations on Android.'
             }

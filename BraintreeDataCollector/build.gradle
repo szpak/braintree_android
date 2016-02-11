@@ -71,7 +71,6 @@ uploadArchives {
             pom.project {
                 name 'data-collector'
                 groupId = 'com.braintreepayments.api'
-                version = "${android.defaultConfig.versionName}"
                 packaging 'jar'
                 description 'Fraud tools for Braintree integrations on Android.'
             }
